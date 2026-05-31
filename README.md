@@ -66,23 +66,23 @@
 ## (四) 研究方法與步驟
 
 ### 資料探勘流程說明
-![資料分布](images/你的圖片檔名6.png)
+![前處理流程](images/image6.png)
 
 1. **Business Understanding**  
    建構精準的赤潮毒素與健康風險預測模型，對沿海居民健康、漁業管理與公共衛生政策具有重要意義，能降低中毒事件發生率。
 
 2. **Data Understanding**  
-![資料分布](images/你的圖片檔名8.png)
+![相關性熱圖](images/image8.png)
 
-![資料分布](images/你的圖片檔名3.png)
+![模型比較圖](images/image3.png)
 
-![資料分布](images/你的圖片檔名5.png)
+![特徵重要性](images/image5.png)
 
 4. **Data Preparation**  
    進行缺失值填補、異常值處理、標準化（Min-Max 或 Z-score）。  
    分割資料集：訓練集 67%（例如 339 筆）、測試集 33%（167 筆）。  
    可進行對數或次方轉換提升線性模型效能。
-![資料分布](images/你的圖片檔名1.png)
+![資料清洗結果](images/image1.png)
 
 5. **Modeling**  
    主要使用線性迴歸作為基準，搭配決策樹與 SVM 進行比較。
@@ -100,10 +100,10 @@
 
 ![資料分布](images/image7.png)
 
-![資料分布](images/你的圖片檔名4.png)
+![資料分布2](images/image4.png)
 
 #### 表2. 資料集 2 資料經次方轉換
-![資料分布](images/你的圖片檔名2.png)
+![資料分布3](images/image2.png)
 
 6. **Deployment**  
    將模型封裝成 Web API 或整合至 NOAA-like 預警系統，透過即時水質感測器資料實現每日風險預報。
